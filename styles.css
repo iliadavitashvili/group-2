@@ -22,6 +22,8 @@ header .logo {
   align-self: flex-start;
   justify-self: flex-start;
   margin-top: -20px;
+  display: none;
+  
 
 
 }
@@ -29,6 +31,7 @@ header .logo {
 
 header {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -62,6 +65,9 @@ header li {
   margin-left: 50px;
   justify-content: baseline;
   align-items: flex-start;
+}
+.last-list a:nth-child(1){
+  margin-right: 30px;
 }
 
 .header-svg {
